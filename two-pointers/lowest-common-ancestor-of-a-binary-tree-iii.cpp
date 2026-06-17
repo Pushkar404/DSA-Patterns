@@ -42,7 +42,7 @@ public:
             if (a == nullptr) a = q;
             else a = a->parent;
 
-            if (b = nullptr) b = p;
+            if (b == nullptr) b = p;
             else b = b->parent;
       }
 
