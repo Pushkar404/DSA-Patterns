@@ -32,7 +32,7 @@ public:
             if (fast == 1){
                   return true;
             }
-            if (slow = fast){
+            if (slow == fast){
                   return false;
             }
       }
