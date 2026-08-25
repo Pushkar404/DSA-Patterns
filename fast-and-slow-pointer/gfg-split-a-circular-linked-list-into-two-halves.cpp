@@ -19,7 +19,7 @@ class Solution {
           Node* slow = head;
           Node* fast = head->next;
 
-          while (fast != head || fast->next != head){
+          while (fast != head && fast->next != head){
             slow = slow->next;
             fast = fast->next;
 
