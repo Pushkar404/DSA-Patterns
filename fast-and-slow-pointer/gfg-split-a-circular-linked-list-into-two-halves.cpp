@@ -30,6 +30,6 @@ class Solution {
           
           fast->next = slow->next;
           slow->next = head;
-        
+     return {head, fast->next};
     }
 };
